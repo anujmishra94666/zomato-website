@@ -1,0 +1,419 @@
+/* Navbar */
+.searchbar{
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 3.4rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    gap: 13px;
+    width: 45pc;
+    padding-left: 10px;
+    margin-left: 23px;
+    margin-right: 85px;
+}
+
+
+.Navbar{
+  justify-content: center;
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.vl {
+  border-left: 1px solid gray;
+    height: 32px;
+}
+
+input{
+  outline: none;
+  border: none;
+  
+}
+
+
+.sign{
+  display: flex;
+  gap: 38px;
+    color: black;
+    font-size: 19px;
+}
+
+
+.sign a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.links a{
+  text-decoration: none;
+  color: #00000069;
+}
+
+
+.links{
+  display: flex;
+    gap: 7px;
+    margin-left: 108px;
+    margin-top: 1pc;
+    margin-bottom: 21px;
+}
+
+
+
+
+/* timming */
+.timing{
+  display: flex;
+  gap: 4pc;
+  margin-left: 8pc;
+  margin-bottom: 2pc;
+}
+
+.time-images{
+  background-color: antiquewhite;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-images img{
+  height: 40px;
+}
+
+.time-1{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+
+
+/* buttons */
+.buttons a{
+  text-decoration: none;
+  color: gray;
+}
+
+.some-buttons{
+  display: flex;
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+    margin-left: 8pc;
+    gap: 23px;
+    color: gray;
+}
+
+.buttons{
+  border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+.food-image {
+  width: 338px;
+  height: 276px;
+  border-radius: 10px;
+  margin-top: 7px;
+}
+
+.div-1 {
+  height: 490px;
+  width: 355px;
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+}
+
+.div-1:hover {
+  border-radius: 16px;
+  box-shadow: 3px 3px 3px 3px #cdf3ff;
+}
+
+
+button {
+  width: 91px;
+  height: 31px;
+  border-radius: 20px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  font-size: 20px;
+  position: relative;
+  top: 16px;
+}
+
+.rating {
+  display: flex;
+  /* gap: 252px; */
+  height: 38px;
+  margin-top: 12px;
+}
+
+.money {
+  display: flex;
+  /* gap: 71px; */
+  height: 38px;
+}
+
+.brand-name {
+  font-size: 20px;
+    margin-left: 10px;
+    flex: 6;
+    text-align: left;
+    /* position: relative; */
+    /* top: 7px; */
+}
+
+.rate {
+ background-color: green;
+    height: 25px;
+    text-align: center;
+    border-radius: 9px;
+    text-align: right;
+    /* position: relative; */
+    /* top: 9px; */
+    flex: 1;
+}
+
+.rate p {
+  position: relative;
+  left: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.item-name {
+  margin-left: 7px;
+  flex:3;
+  text-align: left;
+}
+
+.₹{
+  flex:1.4;
+  text-align: right;
+}
+
+.delivery-time {
+  text-align: right;
+}
+
+.safe-delivery {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.safe-delivery img {
+  height: 18px;
+  width: 48px;
+}
+
+.safe-delivery p {
+  text-align: left;
+  margin: 0;
+}
+
+/* coletion style */
+.delhi {
+  display: flex;
+  gap: 101px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.colletion-p {
+  font-size: 40px;
+  margin: 0;
+  margin-left: 21px;
+  font-family: sans-serif;
+}
+
+.colletion-div {
+  margin-left: 69px;
+  margin-right: 69px;
+  margin-top: 70px;
+}
+
+.resturent-image {
+  display: flex;
+  gap: 11px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.resturent-images {
+  height: 350px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.images-para {
+  color: white;
+  position: relative;
+  bottom: 57px;
+  left: 11px;
+}
+
+
+/* places */
+.places{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+    margin: 90px;
+}
+
+.place-1{
+  border: 1px solid;
+  border-radius: 5px;
+  width: 20pc;
+  padding: 5px;
+}
+
+.explore{
+  background-color: #00000005;
+  height: 34pc;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: white !important;
+  box-shadow:  0 0px 0 #0000001c !important;
+}
+
+/* footer */
+.footer{
+  display: flex;
+    gap: 47pc;
+    /* margin-left: 7pc; */
+}
+
+.logos{
+  display: flex;
+    gap: 27px;
+    margin-right: 1pc;
+}
+
+.india{
+  height: 36px;
+  width: 99px;
+  padding: 0.3rem 0.7rem;
+   border-radius: 6px;
+   border: 1px solid;
+}
+
+.English{
+  height: 36px;
+  width: 110px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+/* footer-2 */
+.footer-2{
+  display: flex;
+  gap: 7pc;
+  /* margin-left: 7pc; */
+  margin-top: 3pc;
+}
+
+.footer-2 h1{
+  font-size: 16px;
+}
+
+.footer-2 p{
+  font-size: 14px;
+}
+
+.social{
+  border-radius: 50%;
+    height: 25px;
+}
+
+.all-footer{
+    background-color: #00000014;
+    padding-top: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-3{
+  margin-left: 9pc;
+  margin-right: 6pc;
+}
+
+
+/* food-cart */
+
+.food-cart{
+  display: flex;
+  justify-content: center;
+  gap: 3pc;
+}
+
+.food-img{
+ overflow: hidden;
+    background: white;
+    padding: 15px;
+    border-radius: 50%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-bottom: 11px;
+    
+}
+
+.foods h1{
+  font-size: 17px;
+}
+
+.foods{
+  height: 14pc;
+  text-align: center;
+}
+
+.food-images{
+  overflow: hidden;
+  padding: 15px;
+  border-radius: 50%;
+margin-bottom: 11px;
+}
+
+.first-cart{
+  display: flex;
+  justify-content: center;
+  gap: 1pc;
+  margin-bottom: 5pc;
+}
+
+.Inspiring-brand{
+  background-color: #8080801c;
+    height: 336px;
+  padding-top: 35px;
+
+}
+
+.top-brand{
+  padding-top: 35px;
+}
